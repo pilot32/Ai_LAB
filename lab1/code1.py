@@ -1,0 +1,13 @@
+a=10
+b=complex(2,1)
+print(id(a),id(b))
+print(b)
+name="Ramesh"
+print(type(name))
+name2=bytes('Ramesh','utf-8')
+print(name2)
+name3=bytearray('Ramesh','utf-8')
+print(id(name3),type(name3),name3)
+A=[10,20,30,40]
+print(type(A),A[1:3])
+print(A[-1])
