@@ -59,13 +59,13 @@ def a_star(start):
     while pq:
         f, g, state, path = heapq.heappop(pq)
 
-        print("Expanding state with f =", f)
+        print("expanding state with f =", f)
         print_state(state)
 
         if state == goal:
-            print("🎉 Goal Reached!")
-            print("Total Steps:", g)
-            print("\nSolution Path:\n")
+            print("goal reached")
+            print("total steps:", g)
+            print("\nsolution path:\n")
 
             for step in path + [state]:
                 print_state(step)
